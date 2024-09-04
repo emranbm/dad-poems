@@ -1,0 +1,26 @@
+remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
+
+title: "محمدحسین باتمان‌غلیچ"
+description: "ترجمان شعر"
+lang: fa
+direction: rtl
+theme_color: "#666666"
+
+paginate: 5
+paginate_path: "/poems/page:num"
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      hero_image: /assets/img/top-banner.jpg
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "MohammadHossein Batmanghelich"
+      layout: post
+      show_sidebar: false
+      categories: development
+      published: true
